@@ -52,13 +52,20 @@ npm run dev
 
 ## Production
 
-Build the application for production:
+### Build the application for production:
 
-Generate your Nuxt app static files
+**Generate your Nuxt app static files**
 ```
 npm run generate
 ```
-Sync Capacitor project
+**Add Android  or ios to your project**
+```
+npx cap add android
+```
+```
+npx cap add ios
+```
+**Sync Capacitor project**
 ```
 npx cap sync
 ```
@@ -72,7 +79,7 @@ npx cap open android
 ```
 npx cap open ios
 ```
-*Alternatively you can use the provided scripts to run them together conveniently*
+*Alternatively you can use the provided scripts below to run them together conveniently (You need to add android or ios first before running thesm)*
 ```
 npm run android
 ```
