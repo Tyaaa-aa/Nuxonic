@@ -1,0 +1,7 @@
+{
+  "name": "Nuxonic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}

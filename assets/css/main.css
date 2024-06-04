@@ -1,0 +1,16 @@
+/* Hide scrollbar for all browsers */
+html,
+body,
+* {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-color: transparent transparent; /* Firefox */
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar,
+*::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+  background-color: transparent;
+  color: transparent;
+}
